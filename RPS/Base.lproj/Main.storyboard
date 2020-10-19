@@ -39,7 +39,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                                 <state key="normal" title="👊"/>
                                                 <connections>
-                                                    <action selector="RockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bue-qv-zZm"/>
+                                                    <action selector="rockButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bue-qv-zZm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRa-8Z-CCV">
@@ -100,7 +100,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="paperBtnOutlet" destination="WRa-8Z-CCV" id="4JD-dj-bnU"/>
+                        <outlet property="playAgainOutlet" destination="R9i-5f-6uz" id="XW2-6r-ZoP"/>
                         <outlet property="robotLabel" destination="BI7-KH-PqR" id="ocG-xZ-St0"/>
+                        <outlet property="rockBtnOutlet" destination="uBp-Oy-bVd" id="9MR-At-JKg"/>
+                        <outlet property="scissorsBtnOutlet" destination="bnP-Up-MPb" id="C4e-Kf-5wq"/>
                         <outlet property="statusLabel" destination="5zb-k8-i1o" id="iGJ-oc-IRO"/>
                         <outlet property="winCounterLabel" destination="niL-LJ-Hqp" id="ste-d5-Txd"/>
                     </connections>

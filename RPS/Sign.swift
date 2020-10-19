@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 func randomSign() -> Sign {
     let randomCount = Int.random(in: 0...2)
     switch randomCount {
