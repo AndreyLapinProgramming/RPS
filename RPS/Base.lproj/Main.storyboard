@@ -100,7 +100,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="RobotLabel" destination="BI7-KH-PqR" id="4vK-fA-zqF"/>
+                        <outlet property="robotLabel" destination="BI7-KH-PqR" id="ocG-xZ-St0"/>
                         <outlet property="statusLabel" destination="5zb-k8-i1o" id="iGJ-oc-IRO"/>
                         <outlet property="winCounterLabel" destination="niL-LJ-Hqp" id="ste-d5-Txd"/>
                     </connections>

@@ -8,17 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var winCounterLabel: UILabel!
     
-    @IBOutlet weak var RobotLabel: UILabel!
+    
+    @IBOutlet weak var robotLabel: UILabel!
     @IBOutlet weak var statusLabel: UILabel!
     
     @IBAction func rockButton(_ sender: Any) {
+        play(sign: .rock)
     }
     @IBAction func paperBtn(_ sender: Any) {
+        play(sign: .paper)
     }
     @IBAction func scissorsBtn(_ sender: Any) {
+        play(sign: .scissors)
     }
     @IBAction func resetButton(_ sender: Any) {
     }
@@ -29,10 +33,19 @@ class ViewController: UIViewController {
         
     }
     
-    func play() {
+    func reset() {
         
     }
-
-
+    
+    func play(sign: Sign) {
+        let computerChoice = randomSign()
+        
+        
+        var result = sign.getResult(oposite: computerChoice)
+        
+        
+    }
+    
+    
 }
 
